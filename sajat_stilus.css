@@ -1,0 +1,90 @@
+p.megjegyzes{
+	font-size:12px;
+	font-style:italic;
+	text-align:right;
+	margin-right:3px;
+}
+li.current{
+	background-color:#708090;
+	border: inset grey 3px;
+}
+
+h3{
+	color:navy;
+	margin-left:5px;
+}
+p.eletrajz{
+	text-align:justify;
+	width:80%;
+	font-family:arial;
+}
+body{
+	background-image: url(hatter.jpg);
+	margin:0;
+	padding:0;
+}
+img{
+	border:3px inset grey;
+	width:100px;
+	float:right;
+	margin-right:65px;
+	margin-left: 5px;
+	
+}
+img:hover{
+	transform: scale(1.2) rotate(5deg);
+	transition:1.5s;
+}
+div#fejlec{
+	background-color:#2b3d5b;
+	padding:1px;
+}
+h1.fejlec{
+	font-family:sherif;
+	text-align:center;
+	border:inset navy 5px;
+	background-color:#b5c7e5;
+	padding:5px;
+	border-radius:15px;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	text-shadow: 1px 1px 0 #2b3d5b;
+}
+h1:hover{
+	transform:scale(1.05) rotate(-2deg) skew(2deg);
+	transition:3s;
+}
+div#container{
+	margin-top:5px;
+}
+div#menu{
+	float:left;
+	width:175px;
+	margin:2px;
+	list-style-type:none;
+	background-color:#2b3d5b;
+	text-indent:15px;
+	line-height:1.5em;
+	border: solid 3px grey;
+}
+div#menu a{
+	text-decoration:none;
+	font-size:1,4em;
+	color:#b5c7e5;
+	font-weight:bold;
+	width:180px;
+	height: 20px;
+	display:inline;
+}
+div#tartalom{
+	margin-left:200px
+}
+li.menu:hover{
+	background-color:#708090;
+}
+a.egyetemilink{
+	color:black;
+}
